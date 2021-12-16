@@ -1,0 +1,50 @@
+:root{
+  --header-background-color: rgb(255, 255, 255);
+  --header-foreground-color: rgb(0, 0, 0);
+  --footer-foreground-color: rgb(24, 170, 255);
+  --footer-background-color: rgb(209, 209, 209);
+  --nav-foreground-color: rgb(255, 255, 255);
+  --nav-background-color: rgb(22, 22, 22);
+}
+
+header{
+  color: var(--header-foreground-color);
+  background: var(--header-background-color)
+  te
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  white-space: nowrap;
+  color: var(--footer-foreground-color);
+  background-color: var(--footer-background-color) 
+}
+
+nav.bg-dark{
+  color: var(--nav-foreground-color);
+  background-color: var(--nav-background-color) !important
+}
+
+h1,header,footer{
+  font-family: 'bebas neue'
+  var(--header-foreground-color)
+}
+
+main{
+  font-family: 'montserrat'
+}
+
+h1{
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+main{
+  margin-top: 60px;
+  margin-bottom: 50px;
+  margin-right: 150px;
+  margin-left: 40px;
+}
